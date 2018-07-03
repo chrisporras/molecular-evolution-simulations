@@ -1,0 +1,263 @@
+---
+title: "Molecular_Evolution_Simulations"
+author: "Cporras"
+output: html_document
+---
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+##Parameter chunk
+setcond <- 2 #Choose second most prevalent AA
+
+distmax <- 10
+distcount<- 1:distmax
+
+#AA vector for distribution
+  aminoacids = c("A", "I", "L", "V", "M", "W", "F",
+                   "C", "S", "T", "Y", "N", "Q", "G", "P",
+                   "R", "K", "H", "D", "E")
+
+#Create AminoAcid Sequence
+seq.size = 10
+aa.seq <- rep("A",seq.size)
+
+#Set number of generations 
+gen.number <- 100
+
+###Simulation loop for distributions
+num.distri <- 10
+ssdveclength <- seq.size^2 * num.distri - seq.size^2 
+ssd.distri.empty <- rep(0, ssdveclength)
+#Distribution loop parameters
+setcond <- 1 #Choose second most prevalent AA
+csvmarker<- "condmax" #Names for .csv
+
+```
+
+```{r}
+###Testing "PAM-1" with simulated amino acid sequence
+
+#AA vector for distribution - Order changed to match PAM 1 Matrix
+  aminoacids = c("A","R","N","D","C","Q",
+                   "E","G","H","I","L","K",
+                    "M","F","P","S","T","W","Y","V")
+
+#Prepare PAM1
+pam1 <- read.csv(file = "PAM1Matrix.csv",header = TRUE)
+rownames(pam1) <- colnames(pam1) <- aminoacids
+pam1.mat<- pam1/10000
+
+
+#Distribution z loop
+distmax <- 10
+distcount<- 1:distmax
+distname2.mat <- matrix(data = 0, nrow=distmax,ncol = 1)
+for(z in 1:distmax){
+
+
+
+#Create AminoAcid Sequence
+seq.size = 10
+aa.seq <- rep("A",seq.size)
+
+#Set number of generations 
+gen.number <- 100
+
+###Simulation loop for distributions
+num.distri <- 10
+ssd.distrimat.nodiag <- matrix(data=0,nrow=num.distri,ncol=seq.size^2) #preallocate distribution matrix
+for(p in 1:nrow(ssd.distrimat.nodiag)){
+
+###PAM Simulation
+
+#Preallocate matrix
+pam.seqmat.trans <- matrix(data = 0, nrow=gen.number+1,ncol=length(aa.seq))
+
+#Initialize
+pam.seqmat.trans[1,] <- aa.seq
+
+pam.seqmat <- matrix(data = 0, nrow=gen.number,ncol=length(aa.seq))
+
+
+
+#Simulation of extant sequences
+for(h in 1:(nrow(pam.seqmat))){
+  for(i in 1:(nrow(pam.seqmat.trans)-1)){
+    for(j in 1:ncol(pam.seqmat.trans)){
+
+      transprob.vec <- pam1.mat[,which(colnames(pam1.mat)==pam.seqmat.trans[i,j])] 
+       
+        pam.seqmat.trans[i+1,j] <- sample(aminoacids,1,prob = transprob.vec)
+
+      }
+    }
+  
+  pam.seqmat[h,] <- pam.seqmat.trans[nrow(pam.seqmat.trans),]
+}
+
+
+
+###Ported from chunk above ^^^
+
+# Compute the amino-acid frequencies in each column
+  seq.mat =  pam.seqmat
+
+#Store residue counts
+aa.matrix = matrix(data = 0, nrow = length(aminoacids), ncol=ncol(seq.mat));
+rownames(aa.matrix) = aminoacids;
+
+blank.aa.vec <- rep(0,length(aminoacids))
+names(blank.aa.vec) = aminoacids
+
+for(k in 1:ncol(seq.mat)){ 
+       my.column = seq.mat[,k];
+       counts = blank.aa.vec + table(my.column)[aminoacids];
+       aa.matrix[,k] = counts;
+
+} 
+#Store residue frequencies.
+aa.totprop.matrix <- matrix(data = 0, nrow=length(aminoacids), ncol=ncol(aa.matrix))
+
+rownames(aa.totprop.matrix) <- aminoacids
+
+for(m in  1:ncol(aa.matrix)){
+        aa.tot <- sum(aa.matrix[,m],na.rm=TRUE)
+        aa.totprop.matrix[,m] <- aa.matrix[,m]/aa.tot
+}
+  
+
+##Calculating % identity for PAM Simulation
+#Shorthand for simple 10X "A" seq
+jc.percent.id <- mean(aa.totprop.matrix[1,])
+
+
+  
+##Choose a CONDITIONAL subset of seq.mat for distribution calculations
+  ssd.subset.mat <- matrix(data=0,nrow = ncol(aa.matrix),ncol=ncol(aa.matrix))
+  
+for(i in 1:ncol(aa.matrix) ) { #ncol(aa.matrix)
+  top.aa.sort <- sort(aa.matrix[,i],decreasing=TRUE)
+  topsubset.aa.matrix<-subset(seq.mat,seq.mat[,i]==names(top.aa.sort[setcond]))
+
+  
+#Store residue counts
+topsubset.counts.mat = matrix(data = 0, nrow = length(aminoacids), ncol=ncol(topsubset.aa.matrix));
+             
+rownames(topsubset.counts.mat) = aminoacids;
+
+for(l in 1:ncol(topsubset.aa.matrix)){ 
+       my.column = topsubset.aa.matrix[,l];
+       counts = table(my.column)[aminoacids];
+       topsubset.counts.mat[,l] = counts;
+} 
+
+#Store residue frequencies.
+topsubset.prop.mat <- matrix(data = 0, nrow=length(aminoacids), ncol=ncol(topsubset.aa.matrix))
+
+rownames(topsubset.prop.mat) <- aminoacids
+
+for(m in  1:ncol(topsubset.counts.mat)){
+        aa.tot <- sum(topsubset.counts.mat[,m],na.rm=TRUE)
+        topsubset.prop.mat[,m] <- topsubset.counts.mat[,m]/aa.tot
+}
+ 
+#Sum of square difference calculation
+ssd.subset.vec <- rep(0,ncol(topsubset.prop.mat))
+ssd.rows <- rep(0,nrow(topsubset.prop.mat))
+
+for(r in 1:ncol(topsubset.prop.mat)){
+  for(s in 1:nrow(topsubset.prop.mat)){
+    ssd.rows[s] <- ((topsubset.prop.mat[s,r] - aa.totprop.matrix[s,r])^2)
+  } #Close row loop
+    ssd.subset.vec[r]<-sum(ssd.rows,na.rm=TRUE)
+} #Close column loop
+ssd.subset.mat[i,] <-ssd.subset.vec
+} #Close i loop
+
+ 
+#Checking results     
+#aa.totprop.matrix
+
+#topsubset.prop.mat  
+  
+#ssd.subset.mat
+  
+  
+#Remove diagonal
+ssd.mat.nodiag = ssd.subset.mat  
+
+for(i in 1:nrow(ssd.subset.mat)){
+    ssd.mat.nodiag[i,i]<- 0
+}
+
+ssd.distrimat.nodiag[p,] <- c(ssd.mat.nodiag)
+} #Close p loop for producing distributions
+
+#ssd.mat.nodiag
+#Rows are the ssd given max residue subset 
+#Columns = positions of subset compared to positions of total
+
+
+###Sorting distribution
+ssd.distri.whole <- sort(c(ssd.distrimat.nodiag),decreasing = TRUE)
+ssd.distri <- ssd.distri.whole[which(ssd.distri.whole != 0)]
+
+
+#Write to csv
+distname2 <-paste("PAM_SSD_Distribution",csvmarker,distcount[z],".csv",sep="")
+distname2.mat [z,] <- distname2
+write.csv(ssd.distri, file = distname2)
+
+}#close distribution z loop
+```
+
+```{r}
+###Reading in and plotting distribution for J-K 
+#& 2nd most prevalent AA
+distname2.mat <- matrix(data = 0, nrow=distmax,ncol = 1)
+for(z in 1: distmax){
+distname2 <-paste("PAM_SSD_Distribution",csvmarker,distcount[z],".csv",sep="")
+distname2.mat [z,] <- distname2
+}
+
+ssd.distri.baseline <- read.csv(distname2.mat[1],header=TRUE)
+ssd.distri.empty <- ssd.distri.baseline$x
+
+#Read .csv
+distri.mat <- matrix(data=0, nrow= distmax,ncol = length(ssd.distri.empty))
+cutoff.mat <- matrix(data=0, nrow= distmax,ncol=3)
+cutoff.vec <- rep(0,3)
+rname <- rep(0,distmax)
+cname <- c("1%","5%","10%")
+plot(ssd.distri.empty, type='n')
+
+color <- rainbow(distmax)
+
+for(i in 1:distmax){
+ssd.readin<- read.csv(distname2.mat[i,],header=TRUE)
+distri.mat[i,]<- ssd.readin$x
+
+lines(distri.mat[i,],col=color[i])
+
+###Finding cutoff values for .csv
+alpha <- c(0.01,0.05,0.1)
+distri.matrow <- distri.mat[i,]
+cutoffs<-distri.matrow[alpha*length(distri.matrow)+1]
+cutoff.mat[i,] <- cutoffs
+
+rname[i] <- paste("Distribution",distcount[i])
+
+}#close loop
+
+rownames(cutoff.mat) <- rname
+colnames(cutoff.mat) <- cname
+
+print(cutoff.mat)
+
+write.csv(cutoff.mat,file = "PAM_SSD_Distribution_CutoffMat.csv")
+```
+
+

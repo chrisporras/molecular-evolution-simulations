@@ -1,0 +1,256 @@
+---
+title: "Molecular_Evolution_Simulations"
+author: "Cporras"
+output: html_document
+---
+
+```{r}
+rm(list=ls())
+library(phylosim)
+```
+
+```{r}
+### Testing PhyloSim framework with "fake" amino acid sequence
+library(phylosim)
+
+#Set Seed
+set.seed(1)
+
+#Create AminoAcid Sequence
+aa.seq <- "AAAAAAAAAA"
+seq.size <- length(strsplit(aa.seq,"")[[1]])
+
+#Set number of generations 
+gen.number <- 100
+
+###Simulation loop for distributions
+num.distri <- 10
+ssd.distrimat.nodiag <- matrix(data=0,nrow=num.distri,ncol=seq.size^2) #preallocate distribution matrix
+for(p in 1:nrow(ssd.distrimat.nodiag)){
+
+
+#Choose transition matrix model
+model.choice <- PAM.dcmut()
+
+      ##Included models:
+      ##JTT, JTT.dcmut, LG,MtZoa,PAM,PAM.dcmut,
+      ##WAG,cpREV,mrArt,mtMam,mtREV24
+
+#Simulate molecular evolution based on 
+aa.sim1<- Simulate(
+		PhyloSim(phy=rcoal(gen.number),
+       root=AminoAcidSequence(string= aa.seq, proc=list(list(model.choice)) ) )
+	)
+
+  #view summary
+  summary(aa.sim1)
+  
+	#Plot simulated 
+	plot(aa.sim1)
+	
+ 	#Get list of branch events 
+ 	getBranchEvents(aa.sim1)
+ 	
+	#Get number of substitutions as new
+	aa.subst<-exportStatTree(aa.sim1,"substitution")
+	
+	#Plot number of substitutions in phylogenetic tree
+	plot(aa.subst)
+	
+	
+	
+###Get tip sequences
+	aa.sim1.seq <- getSequences.PhyloSim(aa.sim1)
+	aa.sim1.tips <- aa.sim1$sequences[1:getNtips.PhyloSim(aa.sim1)]
+	
+	# Compute the amino-acid frequencies in each column
+  simtip = aa.sim1.tips
+  
+  #AA vector for distribution
+  aminoacids = c("A", "I", "L", "V", "M", "W", "F",
+                   "C", "S", "T", "Y", "N", "Q", "G", "P",
+                   "R", "K", "H", "D", "E")
+  
+  #Define matrix rows and columns
+  num.rows = length(simtip); # How many rows do we want? Same as number of sequences
+  num.col = nchar(aa.seq); # Number of columns, same as number of positions in a sequence
+
+# Pre-allocate a matrix 
+seq.mat = matrix(data = 0, nrow=num.rows, ncol=num.col); # Empty matrix (all entries are NA)
+
+# Fill the matrix with sequence data
+   for (i in 1:nrow(seq.mat)){           
+           my.seq = (simtip[[i]]);  
+      for(j in 1:ncol(seq.mat)){         
+          seq.mat[i,j] = substr(my.seq,j,j);	  
+       } 
+   } 
+# Each row corresponds to sequence
+# Each column corresponds to position for that sequence
+  
+# Iterate through all the columns, and store the amino-acid frequencies
+# for each sequence
+
+#Store residue counts
+aa.matrix = matrix(data = 0, nrow = length(aminoacids), ncol=ncol(seq.mat));
+             
+rownames(aa.matrix) = aminoacids;
+
+for(k in 1:ncol(seq.mat)){ 
+       my.column = seq.mat[,k];
+       counts = table(my.column)[aminoacids];
+       aa.matrix[,k] = counts;
+
+} 
+#Store residue frequencies.
+aa.totprop.matrix <- matrix(data = 0, nrow=length(aminoacids), ncol=ncol(aa.matrix))
+
+rownames(aa.totprop.matrix) <- aminoacids
+
+for(m in  1:ncol(aa.matrix)){
+        aa.tot <- sum(aa.matrix[,m],na.rm=TRUE)
+        aa.totprop.matrix[,m] <- aa.matrix[,m]/aa.tot
+}
+ 
+  
+  
+  
+  
+##Choose a RANDOM subset of seq.mat for distribution calculations
+  samplesize = (nrow(seq.mat))/2
+  replace = FALSE
+  num.dist = 1
+  
+for(k in 1:num.dist) {   
+  sample.seq.mat<- seq.mat[sample.int(nrow(seq.mat),samplesize,replace=replace), ]
+  
+  #Store residue counts
+sample.aa.matrix = matrix(data = 0, nrow = length(aminoacids), ncol=ncol(sample.seq.mat));
+             
+rownames(sample.aa.matrix) = aminoacids;
+
+for(l in 1:ncol(sample.seq.mat)){ 
+       my.column = sample.seq.mat[,l];
+       counts = table(my.column)[aminoacids];
+       sample.aa.matrix[,l] = counts;
+} 
+
+#Store residue frequencies.
+sample.prop.matrix <- matrix(data = 0, nrow=length(aminoacids), ncol=ncol(sample.aa.matrix))
+
+rownames(sample.prop.matrix) <- aminoacids
+
+for(m in  1:ncol(sample.aa.matrix)){
+        aa.tot <- sum(sample.aa.matrix[,m],na.rm=TRUE)
+        sample.prop.matrix[,m] <- sample.aa.matrix[,m]/aa.tot
+}
+}
+  
+  
+##Calculating % identity for PhyloSim
+#Shorthand for simple 10X "A" seq
+phylosim.percent.id <- mean(aa.totprop.matrix[1,])
+  
+  
+  
+  
+  
+  
+  
+  
+##Choose a CONDITIONAL subset of seq.mat for distribution calculations
+  ssd.subset.mat <- matrix(data=0,nrow = ncol(aa.matrix),ncol=ncol(aa.matrix))
+  
+for(i in 1:ncol(aa.matrix) ) { #ncol(aa.matrix)
+  top.aa <- aminoacids[which.max(aa.matrix[,i])]
+  topsubset.aa.matrix<-subset(seq.mat, seq.mat[,i]==top.aa) 
+
+  
+#Store residue counts
+topsubset.counts.mat = matrix(data = 0, nrow = length(aminoacids), ncol=ncol(topsubset.aa.matrix));
+             
+rownames(topsubset.counts.mat) = aminoacids;
+
+for(l in 1:ncol(topsubset.aa.matrix)){ 
+       my.column = topsubset.aa.matrix[,l];
+       counts = table(my.column)[aminoacids];
+       topsubset.counts.mat[,l] = counts;
+} 
+
+#Store residue frequencies.
+topsubset.prop.mat <- matrix(data = 0, nrow=length(aminoacids), ncol=ncol(topsubset.aa.matrix))
+
+rownames(topsubset.prop.mat) <- aminoacids
+
+for(m in  1:ncol(topsubset.counts.mat)){
+        aa.tot <- sum(topsubset.counts.mat[,m],na.rm=TRUE)
+        topsubset.prop.mat[,m] <- topsubset.counts.mat[,m]/aa.tot
+}
+ 
+#Sum of square difference calculation
+ssd.subset.vec <- rep(0,ncol(topsubset.prop.mat))
+ssd.rows <- rep(0,nrow(topsubset.prop.mat))
+
+for(r in 1:ncol(topsubset.prop.mat)){
+  for(s in 1:nrow(topsubset.prop.mat)){
+    ssd.rows[s] <- ((topsubset.prop.mat[s,r] - aa.totprop.matrix[s,r])^2)
+  } #Close row loop
+    ssd.subset.vec[r]<-sum(ssd.rows,na.rm=TRUE)
+} #Close column loop
+ssd.subset.mat[i,] <-ssd.subset.vec
+} #Close i loop
+
+ 
+#Checking results     
+#aa.totprop.matrix
+
+#topsubset.prop.mat  
+  
+#ssd.subset.mat
+  
+  
+#Remove diagonal
+ssd.mat.nodiag = ssd.subset.mat  
+
+for(i in 1:nrow(ssd.subset.mat)){
+    ssd.mat.nodiag[i,i]<- 0
+}
+
+ssd.distrimat.nodiag[p,] <- c(ssd.mat.nodiag)
+} #Close p loop for producing distributions
+
+#ssd.mat.nodiag
+#Rows are the ssd given max residue subset 
+#Columns = positions of subset compared to positions of total
+
+
+###Sorting and plotting distribution
+ssd.distri.whole <- sort(c(ssd.distrimat.nodiag),decreasing = TRUE)
+ssd.distri <- ssd.distri.whole[which(ssd.distri.whole != 0)]
+
+plot(ssd.distri,type='l')
+
+
+###Finding cutoff values
+alpha <- c(0.01,0.05,0.1)
+cutoffs<-ssd.distri[alpha*length(ssd.distri)+1]
+print(paste("1% cutoff is",cutoffs[1]))
+print(paste("5% cutoff is",cutoffs[2]))
+print(paste("10% cutoff is",cutoffs[3]))
+
+
+#Write to .csv
+write.csv(ssd.distri, file = "PhyloSim_PAM_SSD_Distribution.csv")
+
+#Read .csv
+ssd.readin<- read.csv("PhyloSim_PAM_SSD_Distribution.csv",header=TRUE)
+ssd.distri1<- ssd.readin$x
+plot(ssd.distri1, type='l')
+
+###Finding cutoff values for .csv
+alpha <- c(0.01,0.05,0.1)
+cutoffs<-ssd.distri1[alpha*length(ssd.distri1)+1]
+print(paste("1% cutoff is",cutoffs[1]))
+print(paste("5% cutoff is",cutoffs[2]))
+print(paste("10% cutoff is",cutoffs[3]))
+```
