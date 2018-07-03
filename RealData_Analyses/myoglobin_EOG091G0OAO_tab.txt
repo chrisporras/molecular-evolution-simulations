@@ -1,0 +1,475 @@
+pub_og_id	og_name	level_taxid	organism_taxid	organism_name	int_prot_id	pub_gene_id	description
+EOG091G0OAO	Globin	33208	6087	Hydra vulgaris	6087:001fff	449676784	
+EOG091G0OAO	Globin	33208	6334	Trichinella spiralis	6334:000fe8	EFV50254	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	6412	Helobdella robusta	6412:003121	HelroG178903	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	6526	Biomphalaria glabrata	6526:003095	BGLTMP012438-PA	
+EOG091G0OAO	Globin	33208	6526	Biomphalaria glabrata	6526:002bd0	BGLTMP011217-PA	
+EOG091G0OAO	Globin	33208	6526	Biomphalaria glabrata	6526:002a58	BGLTMP010841-PA	
+EOG091G0OAO	Globin	33208	6526	Biomphalaria glabrata	6526:000197	BGLTMP000408-PA	
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:00756b	DAPPUDRAFT_96311	
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:007458	DAPPUDRAFT_93831	Hemoglobin  
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:005a60	DAPPUDRAFT_325182	
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:005a40	DAPPUDRAFT_325072	
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:002006	DAPPUDRAFT_234836	Hemoglobin  
+EOG091G0OAO	Globin	33208	6669	Daphnia pulex	6669:001d17	DAPPUDRAFT_230333	
+EOG091G0OAO	Globin	33208	7091	Bombyx mori	7091:0015eb	BGIBMGA005612	Globin  
+EOG091G0OAO	Globin	33208	7130	Manduca sexta	7130:0014ee	Msex2.05385	
+EOG091G0OAO	Globin	33208	7719	Ciona intestinalis	7719:001260	LOC100183005	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7739	Branchiostoma floridae	7739:003e7c	Brafl1	
+EOG091G0OAO	Globin	33208	7739	Branchiostoma floridae	7739:001866	Brafl1	
+EOG091G0OAO	Globin	33208	7757	Petromyzon marinus	7757:00204d	ENSPMAG00000008310	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7757	Petromyzon marinus	7757:00201c	Pma.6672	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7757	Petromyzon marinus	7757:001c36	ENSPMAG00000007259	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7757	Petromyzon marinus	7757:001789	Pma.586	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7757	Petromyzon marinus	7757:0014b4	ENSPMAG00000005328	Globin III
+EOG091G0OAO	Globin	33208	7868	Callorhinchus milii	7868:00440f	103191115	Myoglobin
+EOG091G0OAO	Globin	33208	7868	Callorhinchus milii	7868:003a6a	103188413	cytoglobin
+EOG091G0OAO	Globin	33208	7868	Callorhinchus milii	7868:000253	103172290	cytoglobin-2-like
+EOG091G0OAO	Globin	33208	7897	Latimeria chalumnae	7897:003998	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7897	Latimeria chalumnae	7897:0036f0	LOC102356093	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7897	Latimeria chalumnae	7897:001d19	MB	Myoglobin
+EOG091G0OAO	Globin	33208	7897	Latimeria chalumnae	7897:00066d	ENSLACG00000001661	Uncharacterized protein  
+EOG091G0OAO	Globin	33208	7918	Lepisosteus oculatus	7918:00453b	ENSLOCG00000017762	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7918	Lepisosteus oculatus	7918:001eb0	ENSLOCG00000007868	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7950	Clupea harengus	7950:00470b	105907637	myoglobin
+EOG091G0OAO	Globin	33208	7950	Clupea harengus	7950:002b7a	105900212	cytoglobin
+EOG091G0OAO	Globin	33208	7955	Danio rerio	7955:0033c0	cygb2	Cytoglobin-2
+EOG091G0OAO	Globin	33208	7955	Danio rerio	7955:0014ff	mb	Myoglobin
+EOG091G0OAO	Globin	33208	7994	Astyanax mexicanus	7994:003dc6	ENSAMXG00000015815	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	7994	Astyanax mexicanus	7994:002e3e	ENSAMXG00000011839	Myoglobin
+EOG091G0OAO	Globin	33208	8010	Esox lucius	8010:00396f	105021622	cytoglobin
+EOG091G0OAO	Globin	33208	8010	Esox lucius	8010:001a06	105013150	cytoglobin-2-like
+EOG091G0OAO	Globin	33208	8010	Esox lucius	8010:00008b	105005749	myoglobin
+EOG091G0OAO	Globin	33208	8049	Gadus morhua	8049:003460	ENSGMOG00000013787	cytoglobin 2 
+EOG091G0OAO	Globin	33208	8049	Gadus morhua	8049:0010f0	ENSGMOG00000004477	cytoglobin 1 
+EOG091G0OAO	Globin	33208	8078	Fundulus heteroclitus	8078:004a09	105936026	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8078	Fundulus heteroclitus	8078:000f8f	105919532	cytoglobin-2
+EOG091G0OAO	Globin	33208	8078	Fundulus heteroclitus	8078:00035f	105916153	myoglobin
+EOG091G0OAO	Globin	33208	8083	Xiphophorus maculatus	8083:003024	ENSXMAG00000012342	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8083	Xiphophorus maculatus	8083:001ade	ENSXMAG00000006888	Myoglobin
+EOG091G0OAO	Globin	33208	8083	Xiphophorus maculatus	8083:001806	ENSXMAG00000006158	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8090	Oryzias latipes	8090:002e92	cygb1	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8090	Oryzias latipes	8090:000f27	mb	Myoglobin
+EOG091G0OAO	Globin	33208	8090	Oryzias latipes	8090:00025c	cygb	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8128	Oreochromis niloticus	8128:004bdf	LOC100700939	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8128	Oreochromis niloticus	8128:004734	LOC100706286	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8128	Oreochromis niloticus	8128:00464c	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	8153	Haplochromis burtoni	8153:0053ab	102312255	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8153	Haplochromis burtoni	8153:004831	102308991	myoglobin
+EOG091G0OAO	Globin	33208	8153	Haplochromis burtoni	8153:003368	102303061	cytoglobin
+EOG091G0OAO	Globin	33208	8208	Notothenia coriiceps	8208:005bc4	104966930	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8208	Notothenia coriiceps	8208:005b45	104966781	myoglobin
+EOG091G0OAO	Globin	33208	8208	Notothenia coriiceps	8208:0025ca	104951565	cytoglobin-2
+EOG091G0OAO	Globin	33208	8364	Xenopus (Silurana) tropicalis	8364:003bcb	gby	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8364	Xenopus (Silurana) tropicalis	8364:00283a	cygb	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8469	Chelonia mydas	8469:002512	EMP33158.1	myoglobin
+EOG091G0OAO	Globin	33208	8469	Chelonia mydas	8469:002010	EMP31876.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8469	Chelonia mydas	8469:000b17	EMP26507.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8469	Chelonia mydas	8469:000068	EMP23772.1	cytoglobin
+EOG091G0OAO	Globin	33208	8496	Alligator mississippiensis	8496:002b8c	102569755	myoglobin
+EOG091G0OAO	Globin	33208	8496	Alligator mississippiensis	8496:00072c	102559610	cytoglobin-like
+EOG091G0OAO	Globin	33208	8496	Alligator mississippiensis	8496:00005e	102557725	cytoglobin
+EOG091G0OAO	Globin	33208	8665	Ophiophagus hannah	8665:0041b1	ETE72530.1	
+EOG091G0OAO	Globin	33208	8665	Ophiophagus hannah	8665:00417b	ETE72476.1	
+EOG091G0OAO	Globin	33208	8665	Ophiophagus hannah	8665:003bdb	ETE71036.1	
+EOG091G0OAO	Globin	33208	8801	Struthio camelus	8801:002e4a	KFV86158.1	
+EOG091G0OAO	Globin	33208	8801	Struthio camelus	8801:000e84	KFV78024.1	
+EOG091G0OAO	Globin	33208	8801	Struthio camelus	8801:000810	KFV75768.1	
+EOG091G0OAO	Globin	33208	8839	Anas platyrhynchos	8839:001b4d	MB	Myoglobin
+EOG091G0OAO	Globin	33208	8839	Anas platyrhynchos	8839:001161	LOC101802841	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8839	Anas platyrhynchos	8839:000c04	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	8897	Chaetura pelagica	8897:00306d	KFU95739.1	myoglobin
+EOG091G0OAO	Globin	33208	8897	Chaetura pelagica	8897:00156a	KFU88824.1	cytoglobin
+EOG091G0OAO	Globin	33208	8897	Chaetura pelagica	8897:000778	KFU85254.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8932	Columba livia	8932:003321	EMC89810.1	cytoglobin
+EOG091G0OAO	Globin	33208	8932	Columba livia	8932:001f96	EMC84807.1	cytoglobin-1
+EOG091G0OAO	Globin	33208	8932	Columba livia	8932:0010e4	EMC81045.1	myoglobin
+EOG091G0OAO	Globin	33208	8954	Falco peregrinus	8954:001c28	101917624	cytoglobin
+EOG091G0OAO	Globin	33208	8954	Falco peregrinus	8954:001581	101915883	myoglobin
+EOG091G0OAO	Globin	33208	8954	Falco peregrinus	8954:000bea	101913378	globin-like
+EOG091G0OAO	Globin	33208	8962	Aquila chrysaetos	8962:0034d1	105413795	
+EOG091G0OAO	Globin	33208	8962	Aquila chrysaetos	8962:002b85	105411254	
+EOG091G0OAO	Globin	33208	8962	Aquila chrysaetos	8962:001ed0	105407648	
+EOG091G0OAO	Globin	33208	8969	Haliaeetus albicilla	8969:001d9e	KFQ04707.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	8969	Haliaeetus albicilla	8969:001d64	KFQ04592.1	myoglobin
+EOG091G0OAO	Globin	33208	8969	Haliaeetus albicilla	8969:000c16	KFP96150.1	cytoglobin
+EOG091G0OAO	Globin	33208	9031	Gallus gallus	9031:002151	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9031	Gallus gallus	9031:001f6d	GBE	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9031	Gallus gallus	9031:000494	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9103	Meleagris gallopavo	9103:0028a0	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9103	Meleagris gallopavo	9103:00261e	LOC100549708	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9103	Meleagris gallopavo	9103:000be1	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9135	Serinus canaria	9135:001d2a	103819875	cytoglobin
+EOG091G0OAO	Globin	33208	9135	Serinus canaria	9135:000418	103813317	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	9135	Serinus canaria	9135:0003b3	103813214	myoglobin
+EOG091G0OAO	Globin	33208	9209	Phalacrocorax carbo	9209:001645	KFW92301.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	9209	Phalacrocorax carbo	9209:000864	KFW88200.1	myoglobin
+EOG091G0OAO	Globin	33208	9217	Phoenicopterus ruber	9217:0023d2	KFQ87455.1	
+EOG091G0OAO	Globin	33208	9217	Phoenicopterus ruber	9217:001da4	KFQ85873.1	
+EOG091G0OAO	Globin	33208	9233	Aptenodytes forsteri	9233:001d06	KFM07670.1	cytoglobin
+EOG091G0OAO	Globin	33208	9233	Aptenodytes forsteri	9233:0007bf	KFM02223.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	9233	Aptenodytes forsteri	9233:000750	KFM02112.1	myoglobin
+EOG091G0OAO	Globin	33208	9238	Pygoscelis adeliae	9238:0030ee	KFW73142.1	myoglobin
+EOG091G0OAO	Globin	33208	9238	Pygoscelis adeliae	9238:0026ab	KFW70515.1	cytoglobin
+EOG091G0OAO	Globin	33208	9238	Pygoscelis adeliae	9238:000202	KFW61130.1	
+EOG091G0OAO	Globin	33208	9244	Calypte anna	9244:002948	KFP05412.1	cytoglobin
+EOG091G0OAO	Globin	33208	9244	Calypte anna	9244:0004b5	KFO96048.1	
+EOG091G0OAO	Globin	33208	9244	Calypte anna	9244:00022e	KFO95401.1	myoglobin
+EOG091G0OAO	Globin	33208	9258	Ornithorhynchus anatinus	9258:002ab1	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9258	Ornithorhynchus anatinus	9258:00281a	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9305	Sarcophilus harrisii	9305:003d3e	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9305	Sarcophilus harrisii	9305:0016f1	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9315	Macropus eugenii	9315:002417	ENSMEUG00000010162	myoglobin 
+EOG091G0OAO	Globin	33208	9315	Macropus eugenii	9315:00030f	ENSMEUG00000000851	cytoglobin 
+EOG091G0OAO	Globin	33208	9361	Dasypus novemcinctus	9361:0047f1	ENSDNOG00000043832	cytoglobin 
+EOG091G0OAO	Globin	33208	9361	Dasypus novemcinctus	9361:0016f6	ENSDNOG00000014122	myoglobin 
+EOG091G0OAO	Globin	33208	9365	Erinaceus europaeus	9365:00167c	ENSEEUG00000006305	cytoglobin 
+EOG091G0OAO	Globin	33208	9365	Erinaceus europaeus	9365:001254	ENSEEUG00000005138	myoglobin 
+EOG091G0OAO	Globin	33208	9371	Echinops telfairi	9371:00217f	ENSETEG00000010573	cytoglobin 
+EOG091G0OAO	Globin	33208	9371	Echinops telfairi	9371:00115f	ENSETEG00000005480	myoglobin 
+EOG091G0OAO	Globin	33208	9402	Pteropus alecto	9402:002ffc	ELK12333.1	cytoglobin
+EOG091G0OAO	Globin	33208	9402	Pteropus alecto	9402:0027f5	ELK10278.1	myoglobin
+EOG091G0OAO	Globin	33208	9478	Tarsius syrichta	9478:0003ba	ENSTSYG00000001042	
+EOG091G0OAO	Globin	33208	9483	Callithrix jacchus	9483:002bab	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9483	Callithrix jacchus	9483:000189	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9531	Cercocebus atys	9531:001084	105577684	cytoglobin
+EOG091G0OAO	Globin	33208	9531	Cercocebus atys	9531:000b95	105575787	myoglobin
+EOG091G0OAO	Globin	33208	9544	Macaca mulatta	9544:00410e	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9544	Macaca mulatta	9544:000fc3	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9545	Macaca nemestrina	9545:000d11	105469206	cytoglobin
+EOG091G0OAO	Globin	33208	9545	Macaca nemestrina	9545:000329	105464533	myoglobin
+EOG091G0OAO	Globin	33208	9555	Papio anubis	9555:004483	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9555	Papio anubis	9555:00341a	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9568	Mandrillus leucophaeus	9568:002a8b	105542884	cytoglobin
+EOG091G0OAO	Globin	33208	9568	Mandrillus leucophaeus	9568:001efc	105538928	myoglobin
+EOG091G0OAO	Globin	33208	9595	Gorilla gorilla gorilla	9595:0027dc	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9595	Gorilla gorilla gorilla	9595:0004e0	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9597	Pan paniscus	9597:001f09	100979053	myoglobin
+EOG091G0OAO	Globin	33208	9597	Pan paniscus	9597:000ede	100972955	cytoglobin
+EOG091G0OAO	Globin	33208	9598	Pan troglodytes	9598:00431d	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9598	Pan troglodytes	9598:003d78	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9601	Pongo abelii	9601:002c51	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9601	Pongo abelii	9601:001fee	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9606	Homo sapiens	9606:004184	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9606	Homo sapiens	9606:0028e6	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9615	Canis lupus familiaris	9615:000ecc	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9615	Canis lupus familiaris	9615:0004f5	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9646	Ailuropoda melanoleuca	9646:00260b	CYGB;ENSAMEG00000010367	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9646	Ailuropoda melanoleuca	9646:00053c	ENSAMEG00000001404;MB	Myoglobin
+EOG091G0OAO	Globin	33208	9669	Mustela putorius furo	9669:0033c6	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9669	Mustela putorius furo	9669:003028	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9685	Felis catus	9685:001a41	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9685	Felis catus	9685:000e48	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9694	Panthera tigris	9694:00455f	102972341	
+EOG091G0OAO	Globin	33208	9694	Panthera tigris	9694:000fde	102953823	
+EOG091G0OAO	Globin	33208	9707	Odobenus rosmarus	9707:0022a8	101374064	
+EOG091G0OAO	Globin	33208	9707	Odobenus rosmarus	9707:000210	101362814	
+EOG091G0OAO	Globin	33208	9713	Leptonychotes weddellii	9713:004a07	102749312	cytoglobin
+EOG091G0OAO	Globin	33208	9713	Leptonychotes weddellii	9713:000131	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	9739	Tursiops truncatus	9739:003ada	ENSTTRG00000015927	cytoglobin 
+EOG091G0OAO	Globin	33208	9739	Tursiops truncatus	9739:001b0f	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9755	Physeter catodon	9755:003f0f	102993905	cytoglobin
+EOG091G0OAO	Globin	33208	9755	Physeter catodon	9755:0005ce	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9767	Balaenoptera acutorostrata	9767:003de1	103017865	
+EOG091G0OAO	Globin	33208	9767	Balaenoptera acutorostrata	9767:00160a	103004534	
+EOG091G0OAO	Globin	33208	9778	Trichechus manatus	9778:002c03	101353643	
+EOG091G0OAO	Globin	33208	9778	Trichechus manatus	9778:00261b	101351845	
+EOG091G0OAO	Globin	33208	9785	Loxodonta africana	9785:0046de	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9785	Loxodonta africana	9785:003769	LOC100672661;Mb	Myoglobin
+EOG091G0OAO	Globin	33208	9796	Equus caballus	9796:003b84	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9796	Equus caballus	9796:003751	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9798	Equus przewalskii	9798:0050f9	103567204	myoglobin
+EOG091G0OAO	Globin	33208	9798	Equus przewalskii	9798:004bde	103565532	cytoglobin
+EOG091G0OAO	Globin	33208	9813	Procavia capensis	9813:000d8f	ENSPCAG00000003717	myoglobin 
+EOG091G0OAO	Globin	33208	9813	Procavia capensis	9813:0000e8	ENSPCAG00000000252	cytoglobin 
+EOG091G0OAO	Globin	33208	9823	Sus scrofa	9823:003091	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9837	Camelus bactrianus	9837:000d51	105065621	cytoglobin
+EOG091G0OAO	Globin	33208	9837	Camelus bactrianus	9837:00010d	105061899	myoglobin
+EOG091G0OAO	Globin	33208	9838	Camelus dromedarius	9838:002b10	105097391	myoglobin
+EOG091G0OAO	Globin	33208	9838	Camelus dromedarius	9838:001a0d	105092183	cytoglobin
+EOG091G0OAO	Globin	33208	9901	Bison bison	9901:00480c	105002806	
+EOG091G0OAO	Globin	33208	9901	Bison bison	9901:004078	105000376	
+EOG091G0OAO	Globin	33208	9913	Bos taurus	9913:000e18	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9913	Bos taurus	9913:000d93	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9925	Capra hircus	9925:004848	102190733	cytoglobin
+EOG091G0OAO	Globin	33208	9925	Capra hircus	9925:000052	100860833	myoglobin
+EOG091G0OAO	Globin	33208	9940	Ovis aries	9940:0047b9	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9940	Ovis aries	9940:001a8e	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	9978	Ochotona princeps	9978:0033d4	ENSOPRG00000014869	myoglobin 
+EOG091G0OAO	Globin	33208	9978	Ochotona princeps	9978:001c12	ENSOPRG00000008040	cytoglobin 
+EOG091G0OAO	Globin	33208	9986	Oryctolagus cuniculus	9986:004293	MB	Myoglobin
+EOG091G0OAO	Globin	33208	9986	Oryctolagus cuniculus	9986:001502	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	10020	Dipodomys ordii	10020:0034fd	ENSDORG00000014500	myoglobin 
+EOG091G0OAO	Globin	33208	10020	Dipodomys ordii	10020:0026af	ENSDORG00000010590	cytoglobin 
+EOG091G0OAO	Globin	33208	10036	Mesocricetus auratus	10036:00490a	101844252	myoglobin
+EOG091G0OAO	Globin	33208	10036	Mesocricetus auratus	10036:0024e8	101833405	cytoglobin
+EOG091G0OAO	Globin	33208	10042	Peromyscus maniculatus	10042:004f76	102927998	
+EOG091G0OAO	Globin	33208	10042	Peromyscus maniculatus	10042:002c2b	102916781	
+EOG091G0OAO	Globin	33208	10090	Mus musculus	10090:000aad	Cygb	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	10090	Mus musculus	10090:0007d7	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	10116	Rattus norvegicus	10116:001767	Cygb	Histoglobin
+EOG091G0OAO	Globin	33208	10116	Rattus norvegicus	10116:000942	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	10141	Cavia porcellus	10141:003d9f	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	10141	Cavia porcellus	10141:001675	MB	Myoglobin
+EOG091G0OAO	Globin	33208	10160	Octodon degus	10160:003613	101583167	myoglobin
+EOG091G0OAO	Globin	33208	10160	Octodon degus	10160:00195a	101570528	cytoglobin
+EOG091G0OAO	Globin	33208	10224	Saccoglossus kowalevskii	10224:002c86	Sakowv30007813m	
+EOG091G0OAO	Globin	33208	10224	Saccoglossus kowalevskii	10224:002c27	Sakowv30007818m	
+EOG091G0OAO	Globin	33208	10224	Saccoglossus kowalevskii	10224:0019c0	Sakowv30022689m	
+EOG091G0OAO	Globin	33208	13037	Danaus plexippus	13037:000126	DPOGS200316-PA	
+EOG091G0OAO	Globin	33208	13616	Monodelphis domestica	13616:001b29	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	13735	Pelodiscus sinensis	13735:0042c6	ENSPSIG00000017186	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	13735	Pelodiscus sinensis	13735:002df5	ENSPSIG00000011829	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	13735	Pelodiscus sinensis	13735:0020ff	MB	Myoglobin
+EOG091G0OAO	Globin	33208	13735	Pelodiscus sinensis	13735:000ac2	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	28377	Anolis carolinensis	28377:00459d	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	28377	Anolis carolinensis	28377:0042ba	LOC103282340	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	28377	Anolis carolinensis	28377:003530	MB	Myoglobin
+EOG091G0OAO	Globin	33208	28737	Elephantulus edwardii	28737:002d1d	102862573	myoglobin
+EOG091G0OAO	Globin	33208	28737	Elephantulus edwardii	28737:00017f	102843645	cytoglobin
+EOG091G0OAO	Globin	33208	29073	Ursus maritimus	29073:00399c	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	29073	Ursus maritimus	29073:001a87	103665766	cytoglobin
+EOG091G0OAO	Globin	33208	29078	Eptesicus fuscus	29078:003075	103298261	cytoglobin
+EOG091G0OAO	Globin	33208	29078	Eptesicus fuscus	29078:001232	103288909	myoglobin
+EOG091G0OAO	Globin	33208	29159	Crassostrea gigas	29159:002545	CGI_10010717	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	29159	Crassostrea gigas	29159:0023f6	CGI_10010349	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	30419	Opisthocomus hoazin	30419:002d05	KFR16389.1	cytoglobin
+EOG091G0OAO	Globin	33208	30419	Opisthocomus hoazin	30419:001826	KFR11046.1	
+EOG091G0OAO	Globin	33208	30419	Opisthocomus hoazin	30419:000640	KFR01800.1	myoglobin
+EOG091G0OAO	Globin	33208	30455	Fulmarus glacialis	30455:001f7e	KFW04617.1	myoglobin
+EOG091G0OAO	Globin	33208	30455	Fulmarus glacialis	30455:000b9a	KFV94360.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	30608	Microcebus murinus	30608:00323b	ENSMICG00000014107	myoglobin 
+EOG091G0OAO	Globin	33208	30608	Microcebus murinus	30608:002fd5	ENSMICG00000013429	cytoglobin 
+EOG091G0OAO	Globin	33208	30611	Otolemur garnettii	30611:004b8f	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	30611	Otolemur garnettii	30611:0010f7	MB	Myoglobin
+EOG091G0OAO	Globin	33208	31033	Takifugu rubripes	31033:002ed8	LOC101072021	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	31033	Takifugu rubripes	31033:001f0c	ENSTRUG00000008030	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	31033	Takifugu rubripes	31033:000021	LOC101064807	Myoglobin
+EOG091G0OAO	Globin	33208	32507	Neolamprologus brichardi	32507:005752	102799959	cytoglobin-2-like
+EOG091G0OAO	Globin	33208	32507	Neolamprologus brichardi	32507:003c13	102792351	myoglobin-like
+EOG091G0OAO	Globin	33208	32507	Neolamprologus brichardi	32507:003382	102789957	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	34740	Heliconius melpomene	34740:002e93	HMEL017470	
+EOG091G0OAO	Globin	33208	34839	Chinchilla lanigera	34839:003978	102023381	cytoglobin
+EOG091G0OAO	Globin	33208	34839	Chinchilla lanigera	34839:001288	102009572	myoglobin
+EOG091G0OAO	Globin	33208	35525	Daphnia magna	35525:005f80	Dapma7bEVm028583t1	
+EOG091G0OAO	Globin	33208	35525	Daphnia magna	35525:0058b9	Dapma7bEVm014981t1	
+EOG091G0OAO	Globin	33208	35525	Daphnia magna	35525:0058b8	Dapma7bEVm029622t1	
+EOG091G0OAO	Globin	33208	35525	Daphnia magna	35525:004e41	Dapma7bEVm021393t1	
+EOG091G0OAO	Globin	33208	35525	Daphnia magna	35525:004c49	Dapma7bEVm028876t1	
+EOG091G0OAO	Globin	33208	36166	Megaselia scalaris	36166:000723	MESCA001967	
+EOG091G0OAO	Globin	33208	36300	Pelecanus crispus	36300:002f50	KFQ66047.1	cytoglobin
+EOG091G0OAO	Globin	33208	36300	Pelecanus crispus	36300:001101	KFQ57367.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	36300	Pelecanus crispus	36300:000bea	KFQ54448.1	myoglobin
+EOG091G0OAO	Globin	33208	37040	Gavia stellata	37040:002ac2	KFV60303.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	37040	Gavia stellata	37040:00225f	KFV56109.1	cytoglobin
+EOG091G0OAO	Globin	33208	37040	Gavia stellata	37040:000414	KFV41394.1	myoglobin
+EOG091G0OAO	Globin	33208	37293	Aotus nancymaae	37293:0023b4	105718092	cytoglobin
+EOG091G0OAO	Globin	33208	37293	Aotus nancymaae	37293:0000cd	105704835	myoglobin
+EOG091G0OAO	Globin	33208	37347	Tupaia belangeri	37347:000987	ENSTBEG00000002813	myoglobin 
+EOG091G0OAO	Globin	33208	38654	Alligator sinensis	38654:003fa1	102386492	cytoglobin
+EOG091G0OAO	Globin	33208	38654	Alligator sinensis	38654:003679	102383779	cytoglobin-like
+EOG091G0OAO	Globin	33208	38654	Alligator sinensis	38654:001047	102372471	myoglobin
+EOG091G0OAO	Globin	33208	42254	Sorex araneus	42254:002d2f	ENSSARG00000012814	cytoglobin 
+EOG091G0OAO	Globin	33208	43179	Ictidomys tridecemlineatus	43179:001120	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	43179	Ictidomys tridecemlineatus	43179:000eda	MB	Myoglobin
+EOG091G0OAO	Globin	33208	43455	Cathartes aura	43455:002290	KFP54808.1	
+EOG091G0OAO	Globin	33208	43455	Cathartes aura	43455:001817	KFP52127.1	
+EOG091G0OAO	Globin	33208	43455	Cathartes aura	43455:001644	KFP51660.1	
+EOG091G0OAO	Globin	33208	44394	Zonotrichia albicollis	44394:0032fd	102074681	cytoglobin
+EOG091G0OAO	Globin	33208	44394	Zonotrichia albicollis	44394:001b1b	102067969	myoglobin
+EOG091G0OAO	Globin	33208	44394	Zonotrichia albicollis	44394:000651	102062177	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	45351	Nematostella vectensis	45351:00269d	NEMVEDRAFT_v1g203304	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	45779	Papilio glaucus	45779:002b5e	pgl5269.1	
+EOG091G0OAO	Globin	33208	48698	Poecilia formosa	48698:002f2f	ENSPFOG00000012371	Myoglobin
+EOG091G0OAO	Globin	33208	48698	Poecilia formosa	48698:002c2c	ENSPFOG00000011582	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	48698	Poecilia formosa	48698:0013c0	ENSPFOG00000005172	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	48883	Geospiza fortis	48883:002e62	102043525	myoglobin
+EOG091G0OAO	Globin	33208	48883	Geospiza fortis	48883:0028da	102042068	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	48883	Geospiza fortis	48883:000dd4	102034957	cytoglobin
+EOG091G0OAO	Globin	33208	50402	Charadrius vociferus	50402:0014fa	KGL91160.1	cytoglobin
+EOG091G0OAO	Globin	33208	50402	Charadrius vociferus	50402:000931	KGL88143.1	
+EOG091G0OAO	Globin	33208	51337	Jaculus jaculus	51337:002fb8	101609802	myoglobin
+EOG091G0OAO	Globin	33208	51337	Jaculus jaculus	51337:000ef3	101598571	cytoglobin
+EOG091G0OAO	Globin	33208	51511	Ciona savignyi	51511:002c0d	ENSCSAVG00000011495	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	51655	Plutella xylostella	51655:002535	Px012339	
+EOG091G0OAO	Globin	33208	52644	Haliaeetus leucocephalus	52644:003935	104842793	myoglobin
+EOG091G0OAO	Globin	33208	52644	Haliaeetus leucocephalus	52644:002b7a	104839205	cytoglobin
+EOG091G0OAO	Globin	33208	52644	Haliaeetus leucocephalus	52644:000b6c	104830737	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	54126	Pristionchus pacificus	54126:002019	WBGene00097847	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	54126	Pristionchus pacificus	54126:0016e4	WBGene00095474	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	54131	Colobus angolensis	54131:0047cc	105525488	
+EOG091G0OAO	Globin	33208	54131	Colobus angolensis	54131:003290	105517991	
+EOG091G0OAO	Globin	33208	54374	Mesitornis unicolor	54374:002ea3	KFQ40080.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	54374	Mesitornis unicolor	54374:001f63	KFQ35072.1	cytoglobin
+EOG091G0OAO	Globin	33208	54374	Mesitornis unicolor	54374:001dfc	KFQ34405.1	myoglobin
+EOG091G0OAO	Globin	33208	54380	Cariama cristata	54380:001c87	KFP64624.1	myoglobin
+EOG091G0OAO	Globin	33208	54380	Cariama cristata	54380:000c9c	KFP60549.1	cytoglobin
+EOG091G0OAO	Globin	33208	54380	Cariama cristata	54380:000249	KFP56296.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	54383	Eurypyga helias	54383:001c8a	KFW03906.1	cytoglobin
+EOG091G0OAO	Globin	33208	54383	Eurypyga helias	54383:001a9d	KFW02904.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	54383	Eurypyga helias	54383:0003a9	KFV91485.1	myoglobin
+EOG091G0OAO	Globin	33208	54969	Polypedilum nubifer	54969:000de0	Pn.03553	
+EOG091G0OAO	Globin	33208	55661	Cuculus canorus	55661:0030fa	KFO81667.1	myoglobin
+EOG091G0OAO	Globin	33208	55661	Cuculus canorus	55661:000f32	KFO73019.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	55661	Cuculus canorus	55661:0009ea	KFO71667.1	cytoglobin
+EOG091G0OAO	Globin	33208	56313	Tyto alba	56313:002a63	KFV60750.1	myoglobin
+EOG091G0OAO	Globin	33208	56313	Tyto alba	56313:000896	KFV42517.1	cytoglobin
+EOG091G0OAO	Globin	33208	57068	Acanthisitta chloris	57068:0026b3	KFP84743.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	57068	Acanthisitta chloris	57068:001fa4	KFP81119.1	myoglobin
+EOG091G0OAO	Globin	33208	57068	Acanthisitta chloris	57068:0016c0	KFP77318.1	cytoglobin
+EOG091G0OAO	Globin	33208	57397	Apaloderma vittatum	57397:0024a5	KFP90691.1	cytoglobin
+EOG091G0OAO	Globin	33208	57397	Apaloderma vittatum	57397:0018cf	KFP86190.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	57397	Apaloderma vittatum	57397:000def	KFP80574.1	myoglobin
+EOG091G0OAO	Globin	33208	57412	Colius striatus	57412:002baa	KFP34507.1	myoglobin
+EOG091G0OAO	Globin	33208	57412	Colius striatus	57412:0015b3	KFP28884.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	57421	Merops nubicus	57421:0017aa	KFQ26055.1	cytoglobin
+EOG091G0OAO	Globin	33208	57421	Merops nubicus	57421:000f4b	KFQ21862.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	57421	Merops nubicus	57421:000b53	KFQ19786.1	myoglobin
+EOG091G0OAO	Globin	33208	59463	Myotis lucifugus	59463:00348a	ENSMLUG00000016568	cytoglobin 
+EOG091G0OAO	Globin	33208	59463	Myotis lucifugus	59463:002a32	MB	Myoglobin
+EOG091G0OAO	Globin	33208	59538	Pantholops hodgsonii	59538:0038bf	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	59538	Pantholops hodgsonii	59538:002bf6	102328175	cytoglobin
+EOG091G0OAO	Globin	33208	59729	Taeniopygia guttata	59729:002984	MB	Myoglobin
+EOG091G0OAO	Globin	33208	59729	Taeniopygia guttata	59729:0024de	GBE	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	59729	Taeniopygia guttata	59729:001e1e	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	59894	Ficedula albicollis	59894:003308	MB	Myoglobin
+EOG091G0OAO	Globin	33208	59894	Ficedula albicollis	59894:002d28	LOC101817780	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	59894	Ficedula albicollis	59894:00039e	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	60711	Chlorocebus sabaeus	60711:001ef8	ENSCSAG00000008174	myoglobin 
+EOG091G0OAO	Globin	33208	60711	Chlorocebus sabaeus	60711:001337	ENSCSAG00000005082	cytoglobin 
+EOG091G0OAO	Globin	33208	61622	Rhinopithecus roxellana	61622:00515b	104682471	myoglobin
+EOG091G0OAO	Globin	33208	61622	Rhinopithecus roxellana	61622:004dcb	104681268	cytoglobin
+EOG091G0OAO	Globin	33208	61853	Nomascus leucogenys	61853:00345c	MB	Myoglobin
+EOG091G0OAO	Globin	33208	61853	Nomascus leucogenys	61853:0008ff	CYGB	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	69293	Gasterosteus aculeatus	69293:004ac8	ENSGACG00000019283	cytoglobin 2 
+EOG091G0OAO	Globin	33208	69293	Gasterosteus aculeatus	69293:003167	ENSGACG00000012736	cytoglobin 1 
+EOG091G0OAO	Globin	33208	72004	Bos mutus	72004:0027cd	ELR54597.1	myoglobin
+EOG091G0OAO	Globin	33208	72004	Bos mutus	72004:000bb9	ELR47409.1	cytoglobin
+EOG091G0OAO	Globin	33208	85066	Corvus brachyrhynchos	85066:002ea0	KFO64351.1	cytoglobin
+EOG091G0OAO	Globin	33208	85066	Corvus brachyrhynchos	85066:0022e4	KFO61347.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	85066	Corvus brachyrhynchos	85066:002278	KFO61239.1	myoglobin
+EOG091G0OAO	Globin	33208	89462	Bubalus bubalis	89462:004b06	102413627	cytoglobin
+EOG091G0OAO	Globin	33208	89462	Bubalus bubalis	89462:0049c9	MB	Myoglobin
+EOG091G0OAO	Globin	33208	94827	Tinamus guttatus	94827:001d3e	KGL79683.1	myoglobin
+EOG091G0OAO	Globin	33208	94827	Tinamus guttatus	94827:001081	KGL76422.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	94827	Tinamus guttatus	94827:000504	KGL73481.1	cytoglobin
+EOG091G0OAO	Globin	33208	97097	Phaethon lepturus	97097:002492	KFQ77099.1	cytoglobin
+EOG091G0OAO	Globin	33208	97097	Phaethon lepturus	97097:001af8	KFQ72505.1	myoglobin
+EOG091G0OAO	Globin	33208	97097	Phaethon lepturus	97097:001546	KFQ71047.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	99883	Tetraodon nigroviridis	99883:004381	ENSTNIG00000017519	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	99883	Tetraodon nigroviridis	99883:002c83	ENSTNIG00000011601	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	99883	Tetraodon nigroviridis	99883:0014dd	MB	Myoglobin
+EOG091G0OAO	Globin	33208	106582	Maylandia zebra	106582:004363	101481861	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	106582	Maylandia zebra	106582:0039e8	101479296	myoglobin
+EOG091G0OAO	Globin	33208	106582	Maylandia zebra	106582:0025e3	101473862	cytoglobin
+EOG091G0OAO	Globin	33208	109478	Myotis brandtii	109478:004662	EPQ19393.1	myoglobin
+EOG091G0OAO	Globin	33208	109478	Myotis brandtii	109478:0044a6	EPQ18949.1	cytoglobin
+EOG091G0OAO	Globin	33208	113334	Melitaea cinxia	113334:00302f	MCINX012340	
+EOG091G0OAO	Globin	33208	113334	Melitaea cinxia	113334:00302d	MCINX012338	
+EOG091G0OAO	Globin	33208	113540	Scleropages formosus	113540:003858	KKX08643.1	
+EOG091G0OAO	Globin	33208	113540	Scleropages formosus	113540:001e72	KKX02013.1	
+EOG091G0OAO	Globin	33208	113540	Scleropages formosus	113540:001ad3	KKX01086.1	
+EOG091G0OAO	Globin	33208	113540	Scleropages formosus	113540:0017e9	KKX00340.1	
+EOG091G0OAO	Globin	33208	113540	Scleropages formosus	113540:000f0d	KKW98071.1	
+EOG091G0OAO	Globin	33208	118200	Picoides pubescens	118200:001f36	KFV68929.1	myoglobin
+EOG091G0OAO	Globin	33208	118200	Picoides pubescens	118200:001ecc	KFV68823.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	118200	Picoides pubescens	118200:001179	KFV65412.1	cytoglobin
+EOG091G0OAO	Globin	33208	118797	Lipotes vexillifer	118797:001a72	103076719	myoglobin
+EOG091G0OAO	Globin	33208	118797	Lipotes vexillifer	118797:000528	103069927	cytoglobin
+EOG091G0OAO	Globin	33208	121530	Tauraco erythrolophus	121530:0024be	KFV17477.1	cytoglobin
+EOG091G0OAO	Globin	33208	121530	Tauraco erythrolophus	121530:001d0b	KFV13573.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	121530	Tauraco erythrolophus	121530:001a32	KFV11998.1	myoglobin
+EOG091G0OAO	Globin	33208	128390	Nipponia nippon	128390:003711	KFR08956.1	
+EOG091G0OAO	Globin	33208	128390	Nipponia nippon	128390:0036a4	KFR08847.1	myoglobin
+EOG091G0OAO	Globin	33208	128390	Nipponia nippon	128390:0008af	KFQ92650.1	cytoglobin
+EOG091G0OAO	Globin	33208	132908	Pteropus vampyrus	132908:003c52	ENSPVAG00000016477	myoglobin 
+EOG091G0OAO	Globin	33208	132908	Pteropus vampyrus	132908:00386d	ENSPVAG00000015423	cytoglobin 
+EOG091G0OAO	Globin	33208	143302	Condylura cristata	143302:003529	Mb	Myoglobin
+EOG091G0OAO	Globin	33208	143302	Condylura cristata	143302:001341	101623912	cytoglobin
+EOG091G0OAO	Globin	33208	144197	Stegastes partitus	144197:0053fb	103375378	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	144197	Stegastes partitus	144197:004cd0	103373403	cytoglobin-2
+EOG091G0OAO	Globin	33208	144197	Stegastes partitus	144197:000476	103353989	myoglobin
+EOG091G0OAO	Globin	33208	175835	Buceros rhinoceros	175835:002bff	KFO94208.1	
+EOG091G0OAO	Globin	33208	175835	Buceros rhinoceros	175835:001e71	KFO90738.1	
+EOG091G0OAO	Globin	33208	175835	Buceros rhinoceros	175835:0004b4	KFO84149.1	
+EOG091G0OAO	Globin	33208	176057	Nestor notabilis	176057:002d68	KFQ56713.1	myoglobin
+EOG091G0OAO	Globin	33208	176057	Nestor notabilis	176057:0021ce	KFQ51466.1	cytoglobin
+EOG091G0OAO	Globin	33208	176057	Nestor notabilis	176057:0016af	KFQ46857.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	176946	Python bivittatus	176946:003f24	103065161	myoglobin
+EOG091G0OAO	Globin	33208	176946	Python bivittatus	176946:001043	103052372	myoglobin-like
+EOG091G0OAO	Globin	33208	176946	Python bivittatus	176946:0002f8	103048762	cytoglobin
+EOG091G0OAO	Globin	33208	181096	Corvus cornix	181096:002f00	104696372	
+EOG091G0OAO	Globin	33208	181096	Corvus cornix	181096:002ea1	104696273	
+EOG091G0OAO	Globin	33208	181096	Corvus cornix	181096:0027c3	104694335	
+EOG091G0OAO	Globin	33208	181119	Pseudopodoces humilis	181119:002a61	102110092	cytoglobin-like
+EOG091G0OAO	Globin	33208	181119	Pseudopodoces humilis	181119:002068	102107493	cytoglobin
+EOG091G0OAO	Globin	33208	181119	Pseudopodoces humilis	181119:000bd7	102102146	myoglobin
+EOG091G0OAO	Globin	33208	185453	Chrysochloris asiatica	185453:004818	102841092	myoglobin
+EOG091G0OAO	Globin	33208	185453	Chrysochloris asiatica	185453:0028cd	102827803	cytoglobin
+EOG091G0OAO	Globin	33208	187382	Chlamydotis macqueenii	187382:00156c	KFP40073.1	cytoglobin
+EOG091G0OAO	Globin	33208	187382	Chlamydotis macqueenii	187382:000ed9	KFP38390.1	myoglobin
+EOG091G0OAO	Globin	33208	187382	Chlamydotis macqueenii	187382:00082a	KFP36679.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	188344	Leptosomus discolor	188344:002dc9	KFQ15752.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	188344	Leptosomus discolor	188344:002b03	KFQ15042.1	myoglobin
+EOG091G0OAO	Globin	33208	188344	Leptosomus discolor	188344:000d6b	KFQ02838.1	cytoglobin-like
+EOG091G0OAO	Globin	33208	188379	Egretta garzetta	188379:0018a5	KFP15054.1	cytoglobin
+EOG091G0OAO	Globin	33208	188379	Egretta garzetta	188379:000613	KFP10300.1	
+EOG091G0OAO	Globin	33208	188379	Egretta garzetta	188379:0005aa	KFP10195.1	myoglobin
+EOG091G0OAO	Globin	33208	215358	Larimichthys crocea	215358:00450e	KKF26332.1	
+EOG091G0OAO	Globin	33208	215358	Larimichthys crocea	215358:000718	KKF10470.1	
+EOG091G0OAO	Globin	33208	215358	Larimichthys crocea	215358:00016d	KKF09019.1	
+EOG091G0OAO	Globin	33208	225164	Lottia gigantea	225164:004aa4	LotgiG232639	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	225164	Lottia gigantea	225164:00212f	LotgiG159879	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	225400	Myotis davidii	225400:00315b	ELK35773.1	cytoglobin
+EOG091G0OAO	Globin	33208	225400	Myotis davidii	225400:001162	ELK27588.1	myoglobin
+EOG091G0OAO	Globin	33208	240206	Pterocles gutturalis	240206:0014a3	KFV05433.1	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	240206	Pterocles gutturalis	240206:001108	KFV03614.1	cytoglobin
+EOG091G0OAO	Globin	33208	240206	Pterocles gutturalis	240206:00103d	KFV03261.1	myoglobin
+EOG091G0OAO	Globin	33208	244447	Cynoglossus semilaevis	244447:003c22	103393193	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	244447	Cynoglossus semilaevis	244447:001a05	103383770	cytoglobin
+EOG091G0OAO	Globin	33208	244447	Cynoglossus semilaevis	244447:0019f3	103383752	myoglobin-like
+EOG091G0OAO	Globin	33208	279965	Caprimulgus carolinensis	279965:0027e1	KFZ61844.1	myoglobin
+EOG091G0OAO	Globin	33208	279965	Caprimulgus carolinensis	279965:001fed	KFZ57841.1	cytoglobin
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:0072b4	CapteG5226	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:0066d4	CapteG225570	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:005c5e	CapteG219237	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:004e6a	CapteG21094	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:004d2f	CapteG21023	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:003ef5	CapteG20182	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:00303a	CapteG192931	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:002f60	CapteG192439	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:002264	CapteG18433	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:001b9e	CapteG170177	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:001692	CapteG158355	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:0011b5	CapteG1470	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:0010bc	CapteG144794	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:000c4b	CapteG132766	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	283909	Capitella teleta	283909:000584	CapteG114226	Similarity:Belongs to the globin family.
+EOG091G0OAO	Globin	33208	303518	Pundamilia nyererei	303518:00219f	102201110	myoglobin-like
+EOG091G0OAO	Globin	33208	303518	Pundamilia nyererei	303518:001924	102198800	cytoglobin
+EOG091G0OAO	Globin	33208	303518	Pundamilia nyererei	303518:0004b1	102193243	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	319348	Polypedilum vanderplanki	319348:00426d	Pv.11312	
+EOG091G0OAO	Globin	33208	319348	Polypedilum vanderplanki	319348:002e01	Pv.02996	
+EOG091G0OAO	Globin	33208	319348	Polypedilum vanderplanki	319348:00263e	Pv.03004	
+EOG091G0OAO	Globin	33208	319348	Polypedilum vanderplanki	319348:00101a	Pv.02998	
+EOG091G0OAO	Globin	33208	328815	Manacus vitellinus	328815:002e12	KFW87375.1	myoglobin
+EOG091G0OAO	Globin	33208	328815	Manacus vitellinus	328815:002dab	KFW87272.1	
+EOG091G0OAO	Globin	33208	328815	Manacus vitellinus	328815:00234e	KFW84268.1	cytoglobin
+EOG091G0OAO	Globin	33208	345164	Falco cherrug	345164:00275b	102055966	myoglobin
+EOG091G0OAO	Globin	33208	345164	Falco cherrug	345164:001ab4	102052663	cytoglobin-1-like
+EOG091G0OAO	Globin	33208	345164	Falco cherrug	345164:00026d	102046294	cytoglobin
+EOG091G0OAO	Globin	33208	345573	Podiceps cristatus	345573:00228c	KFZ66744.1	
+EOG091G0OAO	Globin	33208	345573	Podiceps cristatus	345573:001a03	KFZ62496.1	
+EOG091G0OAO	Globin	33208	345573	Podiceps cristatus	345573:001271	KFZ58576.1	
+EOG091G0OAO	Globin	33208	379532	Propithecus coquereli	379532:004227	105824725	cytoglobin
+EOG091G0OAO	Globin	33208	379532	Propithecus coquereli	379532:001306	105810693	myoglobin
+EOG091G0OAO	Globin	33208	419612	Camelus ferus	419612:004753	EQB77229.1	cytoglobin
+EOG091G0OAO	Globin	33208	419612	Camelus ferus	419612:002545	EPY81826.1	myoglobin
+EOG091G0OAO	Globin	33208	482537	Galeopterus variegatus	482537:00496c	103605488	myoglobin
+EOG091G0OAO	Globin	33208	482537	Galeopterus variegatus	482537:0045ce	103604321	cytoglobin
+EOG091G0OAO	Globin	33208	885580	Fukomys damarensis	885580:0044bc	KFO35643.1	cytoglobin
+EOG091G0OAO	Globin	33208	885580	Fukomys damarensis	885580:000171	KFO18416.1	myoglobin
+EOG091G0OAO	Globin	33208	925459	Balearica regulorum	925459:002db5	KFO15116.1	
+EOG091G0OAO	Globin	33208	925459	Balearica regulorum	925459:00084c	KFO05539.1	
+EOG091G0OAO	Globin	33208	1026970	Nannospalax galili	1026970:0032f6	103742102	myoglobin
+EOG091G0OAO	Globin	33208	1026970	Nannospalax galili	1026970:001787	103732688	cytoglobin

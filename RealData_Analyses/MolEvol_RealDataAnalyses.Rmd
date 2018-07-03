@@ -1,0 +1,36 @@
+---
+title: "MolEvol_DistributionAnalyses"
+author: "cporras"
+date: "May 24, 2018"
+output: html_document
+---
+```{r}
+###Tab myoglobin fasta 
+TabOrganisms("myoglobin_EOG091G0OAO_tab.txt","myoglobin_EOG091G0OAO_fasta.fa")
+```
+
+```{r}
+###Remove long sequences
+myo_fasta <- read.fasta("myoglobin_EOG091G0OAO_fasta.fa_new.fa",seqtype = "AA")
+
+myo_vec<-rep(0,length(myo_fasta))
+for(i in 1:length(myo_vec)){
+  myo_vec[i]<-length(myo_fasta[[i]])
+}
+
+hist(myo_vec)
+
+outliers<-which(myo_vec > (mean(myo_vec)+sd(myo_vec)))
+
+#Choose sequences shorter than mean + 1 sd
+myo_cleanfasta <- myo_fasta[-outliers]
+
+myo_cleanvec<-rep(0,length(myo_cleanfasta))
+for(i in 1:length(myo_cleanvec)){
+  myo_cleanvec[i]<-length(myo_cleanfasta[[i]])
+}
+
+hist(myo_cleanvec)
+
+write.fasta(myo_cleanfasta,"myoglobin_cleanfasta.fa")
+```
